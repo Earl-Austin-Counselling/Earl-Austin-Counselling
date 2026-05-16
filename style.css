@@ -118,6 +118,8 @@ body {
     max-width: 650px;
     padding: 3rem 0;
     z-index: 2;
+    text-align: center;     /* centres the text */
+    margin: 0 auto;         /* centres the whole block */
 }
 
 .hero h1 {
