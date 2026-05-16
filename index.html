@@ -2,60 +2,157 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Earl Austin Counselling</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header class="hero">
-    <div class="hero-text">
-        <h1>Earl Austin Counselling</h1>
-        <p>A calm, confidential space to explore your thoughts and feelings.</p>
-        <a href="#contact" class="btn">Get in Touch</a>
-    </div>
-</header>
+    <!-- Navigation -->
+    <header class="site-header">
+        <div class="container nav-container">
+            <div class="brand">
+                <span class="brand-title">Earl Austin Counselling</span>
+                <span class="brand-subtitle">North Yorkshire</span>
+            </div>
+            <nav class="nav">
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
 
-<nav>
-    <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#approach">My Approach</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
+    <!-- Hero: Staithes-inspired, earthy & grounded -->
+    <section class="hero">
+        <div class="hero-overlay">
+            <div class="container hero-content">
+                <h1>Space to pause, notice, and begin again.</h1>
+                <p>
+                    Counselling in North Yorkshire, offering a calm, grounded space to explore what’s happening in your life.
+                </p>
+                <a href="#contact" class="btn-primary">Book a session</a>
+            </div>
+        </div>
+    </section>
 
-<section id="about" class="section">
-    <h2>About Earl</h2>
-    <p>I am a qualified counsellor offering a supportive, non‑judgemental environment where you can talk openly and at your own pace. My work is grounded in empathy, respect, and a commitment to helping you make sense of what you’re experiencing.</p>
-</section>
+    <!-- About -->
+    <section id="about" class="section section-alt">
+        <div class="container two-column">
+            <div class="column">
+                <h2>About Earl</h2>
+                <p>
+                    I offer counselling that is steady, respectful, and rooted in real life. 
+                    Together we can explore patterns, pressures, and past experiences at a pace that feels manageable.
+                </p>
+                <p>
+                    My approach is collaborative and trauma-informed, with an emphasis on safety, choice, and curiosity rather than judgement.
+                </p>
+            </div>
+            <div class="column">
+                <!-- Placeholder image block – you can replace with a real photo later -->
+                <div class="image-placeholder">
+                    <span>Staithes coastline – abstract, earthy tones</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section id="services" class="section">
-    <h2>Services</h2>
-    <ul class="service-list">
-        <li>One‑to‑one counselling (in‑person or online)</li>
-        <li>Support with anxiety, stress, and low mood</li>
-        <li>Trauma‑informed practice</li>
-        <li>Relationship and family concerns</li>
-        <li>Workplace stress and burnout</li>
-    </ul>
-</section>
+    <!-- Services -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2>How we might work together</h2>
+            <p class="section-intro">
+                Sessions are shaped around you, but here are some of the areas people often bring.
+            </p>
 
-<section id="approach" class="section">
-    <h2>My Approach</h2>
-    <p>I work integratively, drawing from person‑centred and evidence‑based therapeutic models. Sessions are collaborative and paced according to your needs. You decide what feels safe to explore, and I walk alongside you with care and curiosity.</p>
-</section>
+            <div class="cards">
+                <article class="card">
+                    <h3>Anxiety, stress & overwhelm</h3>
+                    <p>
+                        Making sense of constant pressure, worry, or burnout, and finding steadier ways to respond.
+                    </p>
+                </article>
 
-<section id="contact" class="section contact">
-    <h2>Contact</h2>
-    <p>If you’d like to arrange an initial conversation or ask a question, you’re welcome to reach out.</p>
-    <p>Email: <strong>earl@earlaustincounselling.co.uk</strong></p>
-    <p>Location: Leeds, West Yorkshire</p>
-</section>
+                <article class="card">
+                    <h3>Loss, change & transition</h3>
+                    <p>
+                        Grief, endings, and life changes that leave you feeling unmoored or unsure of who you are now.
+                    </p>
+                </article>
 
-<footer>
-    <p>© 2026 Earl Austin Counselling — Confidential, ethical, client‑centred practice.</p>
-</footer>
+                <article class="card">
+                    <h3>Relationships & boundaries</h3>
+                    <p>
+                        Exploring patterns in relationships, people‑pleasing, or difficulty saying no without guilt.
+                    </p>
+                </article>
 
+                <article class="card">
+                    <h3>Trauma & difficult histories</h3>
+                    <p>
+                        Working gently with past experiences that still shape how safe, seen, or worthy you feel today.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section section-alt">
+        <div class="container contact-grid">
+            <div>
+                <h2>Contact</h2>
+                <p>
+                    If you’d like to arrange an initial session or ask a question, you can use the form or contact me directly.
+                </p>
+                <ul class="contact-list">
+                    <li><strong>Email:</strong> <a href="mailto:youremail@example.com">youremail@example.com</a></li>
+                    <li><strong>Location:</strong> North Yorkshire, UK (online and in‑person)</li>
+                </ul>
+                <p class="small">
+                    I aim to respond within 2–3 working days. If you are in immediate crisis, please contact emergency services or your local crisis team.
+                </p>
+            </div>
+
+            <div>
+                <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+                    <label>
+                        Name
+                        <input type="text" name="name" required>
+                    </label>
+                    <label>
+                        Email
+                        <input type="email" name="email" required>
+                    </label>
+                    <label>
+                        Phone (optional)
+                        <input type="text" name="phone">
+                    </label>
+                    <label>
+                        Message
+                        <textarea name="message" rows="5" required></textarea>
+                    </label>
+                    <button type="submit" class="btn-primary">Send message</button>
+                    <p class="small">
+                        This form uses a third‑party service to deliver your message. Please do not share urgent or emergency concerns here.
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>&copy; <span id="year"></span> Earl Austin Counselling. All rights reserved.</p>
+            <p class="small">Counselling in North Yorkshire &amp; online.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple current year in footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
