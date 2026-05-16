@@ -102,9 +102,11 @@ body {
     color: #ffffff;
     display: flex;
     align-items: center;
+    justify-content: center;   /* ⭐ THIS CENTRES THE WHOLE BLOCK ⭐ */
     position: relative;
     padding: 0;
 }
+
 
 .hero::before {
     content: "";
