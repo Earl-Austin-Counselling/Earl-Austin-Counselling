@@ -8,8 +8,8 @@ body {
 
 /* HERO SECTION */
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-                url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee') center/cover no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+                url('https://images.unsplash.com/photo-1501785888041-af3ef285b470') center/cover no-repeat;
     color: white;
     padding: 120px 20px;
     text-align: center;
@@ -20,14 +20,19 @@ body {
     margin-bottom: 10px;
 }
 
+/* BUTTON */
 .btn {
     display: inline-block;
-    background: #4a6cf7;
+    background: #1B4D3E; /* forest green */
     color: white;
     padding: 12px 24px;
     border-radius: 6px;
     text-decoration: none;
     margin-top: 20px;
+}
+
+.btn:hover {
+    background: #163f33;
 }
 
 /* NAVIGATION */
@@ -48,8 +53,12 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: #333;
+    color: #1B4D3E; /* forest green */
     font-weight: 600;
+}
+
+nav a:hover {
+    color: #163f33;
 }
 
 /* SECTIONS */
@@ -65,16 +74,17 @@ nav a {
 
 /* CONTACT BOX */
 .contact {
-    background: #eef2ff;
+    background: #e6f0ec; /* pale green tint */
     padding: 40px 20px;
     border-radius: 8px;
+    border-left: 6px solid #1B4D3E;
 }
 
 /* FOOTER */
 footer {
     text-align: center;
     padding: 20px;
-    background: #222;
+    background: #1B4D3E; /* forest green */
     color: white;
     margin-top: 40px;
 }
