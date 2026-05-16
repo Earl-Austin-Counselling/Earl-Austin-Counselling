@@ -98,42 +98,18 @@ body {
 .hero {
     height: 70vh;
     min-height: 420px;
-    background:
-        linear-gradient(
-            to bottom,
-            rgba(31, 59, 50, 0.9) 0%,
-            rgba(31, 59, 50, 0.85) 35%,
-            rgba(90, 111, 115, 0.85) 65%,
-            rgba(210, 191, 163, 0.95) 100%
-        ),
-        radial-gradient(circle at 15% 20%, rgba(196, 143, 90, 0.6) 0, transparent 55%),
-        radial-gradient(circle at 80% 80%, rgba(138, 107, 79, 0.7) 0, transparent 60%);
-    background-blend-mode: multiply, normal, normal;
+    background: url('staithes.png') no-repeat center center/cover;
     color: #ffffff;
     display: flex;
-    align-items: stretch;
-}
-
-.hero-overlay {
-    width: 100%;
-    display: flex;
     align-items: center;
+    position: relative;
 }
 
-.hero-content {
-    max-width: 650px;
-    padding: 3rem 0;
-}
-
-.hero h1 {
-    font-size: clamp(2.2rem, 4vw, 3rem);
-    margin-bottom: 1rem;
-}
-
-.hero p {
-    font-size: 1.05rem;
-    max-width: 520px;
-    margin-bottom: 1.75rem;
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
 }
 
 /* Buttons */
