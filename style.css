@@ -25,6 +25,9 @@ body {
     background-color: #ffffff;
     line-height: 1.6;
 }
+.nav a {
+    font-weight: 700;
+}
 
 /* Layout helpers */
 
